@@ -1,0 +1,624 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.wrapper {
+  width: 100%;
+}
+
+/* Agent login, górny pasek */
+
+.login {
+  margin: 0;
+  padding: 0;
+  background-color: #2c3f50;
+  height: 40px;
+}
+
+.login-in {
+  display: flex;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+
+}
+
+.login-in-2 {
+  display: flex;
+}
+
+.login-in-2 p {
+  border-right: 1px ridge #273644;
+  padding: 20px;
+  font-size: 13px;
+}
+
+.login-in-2 p:first-child {
+  padding-left: 0;
+}
+
+.login-in-2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.login-in-2 a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.login p {
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.socials a {
+  color: white;
+  text-decoration: none;
+  border-right: 1px ridge #273644;
+  font-size: 15px;
+  padding: 12px;
+  font-size: 16px;
+}
+
+.socials a:first-child {
+  border-left: 1px groove #273644;
+}
+
+.socials a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+/* logo, menu */
+
+.logo {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+
+}
+
+.logo p {
+  color: #2c3f50;
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbar a {
+  margin-right: 30px;
+  text-decoration: none;
+  color: #2c3f50;
+  opacity: 0.7;
+}
+
+.navbar a:hover {
+  color: #1cd6af;
+  text-decoration: none;
+}
+
+.item {
+  display: flex;
+  border-radius: 100%;
+  border: solid 2px #2c3f50;
+  width: 33px;
+  height: 33px;
+  align-items: center;
+  justify-content: center;
+}
+
+.item a {
+  text-decoration: none;
+  color: #2c3f50;
+}
+
+.item a:hover {
+  text-decoration: none;
+  color: #2c3f50;
+}
+
+/* pierwsze zdjęcie */
+
+.photo {
+  background-color: #2c3f50;
+  height: 650px;
+  position: relative;
+}
+
+.travel img {
+  width: 100%;
+  opacity: 0.2;
+  height: 650px;
+}
+
+.travel {
+position: relative;
+
+}
+
+.travel-text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+}
+
+.travel-text h1 {
+  color: white;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.travel-text p {
+  color: white;
+  font-size: 24px;
+}
+
+.button {
+  width: 350px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  padding-top: 10px;
+}
+
+.button button {
+  border: none;
+  color: white;
+  align-content: space-around;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  padding: 12px;
+}
+
+.button-1 button {
+  border: 2px solid white;
+  border-radius: 6px;
+}
+
+
+.button-1 button:hover {
+  background-color: #1cd6af;
+  border: 2px solid #1cd6af;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.searchbar {
+  width: 100%;
+  background-color: #2c3f50
+}
+
+.holiday-text {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.holiday-text h1 {
+  border-right: 1px ridge #273644;
+  font-size: 24px;
+  padding: 15px 40px 15px 0;
+  margin-bottom: 0;
+}
+
+.holiday-text p{
+  padding-top: 12px;
+  font-size: 19px;
+}
+
+.where {
+  display: flex;
+  opacity: 0.4;
+  font-size: 16px;
+  padding: 20px 10px;
+}
+
+.button-2 button {
+  background-color: #1cd6af;
+  cursor: pointer;
+  color: white;
+  border: none;
+  padding: 3px 17px;
+  font-size: 16px;
+}
+
+.holiday input {
+  width: 250px;
+  border: 1px solid #273644;
+  height: 31px;
+}
+
+input::placeholder {
+  font-size: 18px;
+  padding: 10px;
+}
+
+/* Special offers, zdjęcia miast */
+
+.offers {
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.offers h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #2c3f50;
+}
+
+.offers p {
+  font-size: 18px;
+}
+
+.offers-in {
+  display: flex;
+  justify-content: space-around;
+}
+
+.offers-in-2 {
+  background-color: lightgray;
+  width: 184px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  margin: 50px 0 100px;
+}
+
+.offers-in-2 h6 {
+  font-size: 14px;
+  margin-bottom: 0;
+  text-align: left;
+  padding: 8px 0  0 10px;
+}
+
+.offers-in-2 p {
+  font-size: 11px;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.offers-in-2:hover {
+  background-color: #2c3f50;
+  color: white;
+  -webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+}
+
+.image:hover {
+  border: 3px solid #1cd6af;
+  margin: -3px;
+}
+
+.image img {
+  width: 180px;
+  height: 150px;
+  margin-top: 1px;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Holidays type, div ze zdjęciem parlamentu */
+
+.type {
+  background-color: #273644;
+  /* position: relative; */
+  height: 600px;
+}
+
+.type img {
+  opacity: 0.2;
+  width: 100%;
+  height: 600px;
+}
+
+.type-in {
+  position: relative;
+}
+
+.type-in-2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  text-align: center;
+  color: white;
+  margin-top: 60px;
+}
+
+.type-in h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: white;
+}
+
+.type-in p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.type-in-3 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  margin-bottom: 30px;
+}
+
+
+.items {
+  display: flex;
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+}
+
+.item-type {
+  border-radius: 100%;
+  border: solid 2px white;
+  width: 120px;
+  height: 120px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.item-type a{
+  font-size: 54px;
+  color: white;
+  display: flex;
+}
+
+.item-type p {
+  color: white;
+  font-size: 26px;
+  display: block;
+  width: 120px;
+  height: 120px;
+}
+
+.item-type:hover{
+  color: #1cd6af;
+}
+
+/* .item-text {
+  margin-top: 18px;
+  margin-bottom: -75px;
+} */
+
+/* .item-text p {
+  font-size: 20px;
+} */
+
+/* .item-type:hover{
+  color: #1cd6af;
+  border-color: #1cd6af;
+} */
+
+.item-type a:hover{
+  color: #1cd6af;
+  text-decoration: none;
+}
+
+/* .item-text p:hover {
+  color: #1cd6af;
+} */
+
+
+
+/* Happy clients, komentarze */
+
+.clients {
+  width: 100%;
+  background-color: white;
+  text-align: center;
+}
+
+.comment {
+  margin: 50px 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.comment-1 {
+  width: 370px;
+  height: 150px;
+  border: 1px solid #C0C0C0;
+  padding: 10px;
+  text-align: left;
+  opacity: 0.3;
+}
+
+.comment-1:hover {
+  opacity: 1;
+  border-top: 3px solid #1cd6af;
+}
+
+.clients h1 {
+  margin-top: 60px;
+  color: #273644;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.clients p {
+  color: #273644;
+  font-size: 18px;
+}
+
+.comment-1 h4 {
+  color: #1cd6af;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+.comment-1 h5 {
+ color: #C0C0C0;
+ margin-bottom: 0;
+ font-size: 15px;
+}
+
+.comment-1 p {
+  font-size: 15px;
+}
+
+/* Stopka1 */
+
+.footer-1 {
+  width: 100%;
+  background-color: #273644;
+  border-bottom: 1px solid #354a5d;
+}
+
+.footer-1-in {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.newsletter {
+  width: 200px;
+  margin: 50px 0;
+  text-align: left;
+}
+
+.newsletter p {
+  color: white;
+  font-size: 15px;
+}
+
+.newsletter h3 {
+  color: #1cd6af;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.button-4 input {
+  width: 150px;
+  border-radius: 2px;
+  border: none;
+  height: 26px;
+}
+
+.button-4 button {
+  width: 40px;
+  border-radius: 2px;
+  color: white;
+  background-color: #1cd6af;
+  border: none;
+  padding: 1px;
+  cursor: pointer;
+}
+
+.newsletter-in {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 2px;
+}
+
+.newsletter a {
+  color: white;
+  font-size: 13px;
+  border: 1px solid white;
+  border-radius: 2px;
+  padding: 2px 3px;
+}
+
+.newsletter a:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.newsletter .socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.newsletter .socials a {
+  border: none;
+  font-size: 18px;
+}
+
+/* Stopka2 */
+
+.footer-2 {
+  width: 100%;
+  background-color: #273644;
+  padding: 50px 0;
+}
+
+.home {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-in a {
+  color: white;
+  font-size: 15px;
+}
+
+.home-in a:hover {
+  color: #1cd6af;
+  text-decoration: none;
+}
+
+.home-in {
+  display: flex;
+  justify-content: space-around;
+}
+
+.home-in p {
+  color: white;
+}
+
+.home-in-2 p {
+  font-size: 13px;
+  color: white;
+  opacity: 0.6;
+  text-align: center;
+}
