@@ -386,11 +386,11 @@ input::placeholder {
 .items {
   display: flex;
   width: 1000px;
-  margin-left: auto;
-  margin-right: auto;
   justify-content: space-between;
   color: white;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item-type {
@@ -401,41 +401,37 @@ input::placeholder {
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  margin: 0 10px;
+  justify-content: center;
 }
+
 
 .item-type a{
   font-size: 54px;
   color: white;
-  display: flex;
 }
-
+/*
 .item-type p {
   color: white;
   font-size: 26px;
   display: block;
   width: 120px;
   height: 120px;
-}
-
-.item-type:hover{
-  color: #1cd6af;
-}
-
-/* .item-text {
-  margin-top: 18px;
-  margin-bottom: -75px;
 } */
+
+
+
+.item-text {
+  text-align: center;
+}
 
 /* .item-text p {
   font-size: 20px;
 } */
 
-/* .item-type:hover{
+.item-type:hover{
   color: #1cd6af;
   border-color: #1cd6af;
-} */
+}
 
 .item-type a:hover{
   color: #1cd6af;
